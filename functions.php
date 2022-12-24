@@ -39,4 +39,5 @@ function expire_token() {
 }
 add_action("jwt_auth_expire", "expire_token");
 // ao criar essa função, o token expira após 24h
+
 ?>
