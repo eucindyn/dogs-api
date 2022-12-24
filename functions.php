@@ -9,4 +9,10 @@ function change_api($slug) {
   return "json";
 }
 add_filter("rest_url_prefix", "change_api");
+
+function expire_token() {
+  return time() + (60 * 60 * 24);
+}
+add_action("jwt_auth_expire", "expire_token");
+// ao criar essa função, o token expira após 24h
 ?>
