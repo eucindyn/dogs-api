@@ -2,7 +2,7 @@
 
 <br>
 
-> API criada para o projeto Dogs, uma rede social para cachorros. 
+> API criada para o projeto Dogs
 <br>
 
 ## Tecnologias utilizadas
